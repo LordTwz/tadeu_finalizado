@@ -599,11 +599,6 @@ footer .copyright {
         display: none;
     }
 }
-@media screen and (max-width:320px) {
-    header form {
-        display: none;
-    }
-}
 @media screen and (max-width: 480px) {
     #sobre {
         width: 98%;
@@ -623,5 +618,8 @@ footer .copyright {
     }
     main .form-mobile {
         display: block;
+    }
+    header form {
+        display: none;
     }
 }
